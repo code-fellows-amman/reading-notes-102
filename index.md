@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Learning Markdown
 
-You can use the [editor on GitHub](https://github.com/code-fellows-amman/reading-notes-102/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Github uses special formats for forms that can be created using markdown, which is a lightweight and easy-to-use syntax. basically markdown is a way to style text on the web, like using bold, italic, adding images etc... it is mostly text with some no-alphabetic characters # * - to name a few. it is used in Github at gists, comments and pull requests, and files with .md extension. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Headers are created by adding the # character before the header, one # means h1 text, two ## means h2 and so on, the higher the h count the smaller the text, making text *italic* is achieved by wrapping the text with a 1 * or _, **Bold** by using ** or __, ***Both*** with (you guessed it) *** or ___. to check all the markdown syntax [Markdown](https://guides.github.com/features/mastering-markdown/) is the place to go. 
 
-### Markdown
+## Github Pages
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/code-fellows-amman/reading-notes-102/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+GH Pages lets you turn your repos into elegant websites to showcase, documentation, projects etc.. no databases and servers needed, it works by creating a URL, to your repo, by looking for web content, to create github pages in a separate branch, all this is done with the help of [jekyll](https://jekyllrb.com/)
